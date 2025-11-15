@@ -1,5 +1,7 @@
 # Terminal Ray Tracer
 
+![screenshot](screenshot.png)
+
 A simple ray tracer that runs directly in terminal and uses CPU only.
 
 Coloring is done with ANSI escape codes. The only supported mode is 24-bit
