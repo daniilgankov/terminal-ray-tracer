@@ -43,7 +43,7 @@ Or use Docker container if you do not have Rust:
 
 ```sh
 docker build .
-docker run -it $(docker build -q .)
+docker run -it --log-driver none $(docker build -q .)
 ```
 
 This program _should_ work on Windows but it is not tested.
